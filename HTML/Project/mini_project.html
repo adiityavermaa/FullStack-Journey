@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <thead>
+    <h1>University Registration Form</h1>
+  </thead>
+
+  <p>Please fill out the form below to register.</p>
+  <hr>
+
+  <form">
+
+  <h2>Personal Details</h2>
+
+  <label for="fname">First Name: </label>
+  <input type="text" name="fname" id="fname
+  /" placeholder="e.g: Arjun">
+
+  <br><br>
+  <label for="lname">Last Name: </label>
+  <input type="text" name="lname" id="lname" placeholder="e.g: sharma">
+
+  <br><br>
+
+  <label for="dob">Date of birth: </label>
+  <input type="date" name="dob" id="dob">
+
+  <br><br>
+  <h3>Gender:</h3>
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male">
+  <br>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female">
+  <br>
+  <label for="other">Other</label>
+  <input type="radio" name="gender" id="other">
+
+  <h3>Upload your Photo:</h3>
+  <label for="myFile">Choose a file:</label>
+  <input type="file" id="myFile" name="myFile">
+
+  <hr>
+
+  <h2>Contact Information</h2>
+
+  <label for="emailid">Email Address:</label>
+  <input type="email" name="email" id="emailid" placeholder="you@example.com">
+  <br><br>
+
+  <label for="phno">Phone Number:</label>
+  <input type="tel" name="phone" id="phno" placeholder="e.g: 984678787">
+
+  <br><br>
+
+  <label for="address">Mailing Address:</label>
+  <br>
+  <textarea name="Address" id="address"></textarea>
+
+  <hr>
+  <h2>Academic Information</h2>
+
+  <label for="course">Select your Course</label>
+  <select name="course" id="course">
+    <option value="CSE">CSE</option>
+    <option value="ME">ME</option>
+    <option value="ECE">ECE</option>
+  </select>
+
+  <br><br>
+
+  <h3>Extracurricular Activities</h3>
+  
+  <input type="checkbox" name="sports" id="sports">
+
+  <label for="sports">Sports</label>
+  <br>
+
+  <input type="checkbox" name="music_arts" id="music_arts">
+  
+  <label for="music_arts">Music & Arts</label>
+  <br>
+  <input type="checkbox" name="technology_clubs" id="technology_clubs">
+  
+  <label for="technology_clubs">Technology clubs</label>
+  <br>
+
+  <input type="checkbox" name="volunteering" id="volunteering">
+  
+  <label for="volunteering">Volunteering</label>
+
+  <hr>
+
+  <h2>Create Your Account</h2>
+
+  <label for="password">Create a Password</label>
+  <input type="password" name="password" id="password">
+<br><br>
+
+  <label for="question">Security Question: </label>
+
+  <input type="text">
+
+  <br><br>
+  <label for="answer">Security Answer: </label>
+
+  <input type="text" name="answer" id="answer">
+
+  <br><br>
+
+  <input type="checkbox" name="terms_condition" id="terms_condition">
+
+  <label for="terms_condition">I agree to the Terms and Conditions.</label>
+
+  <br><br>
+  <hr>
+
+  <button type="submit">Register</button>
+
+  <button type="reset">Clear Form</button>
+
+  </form>
+</body>
+</html>
