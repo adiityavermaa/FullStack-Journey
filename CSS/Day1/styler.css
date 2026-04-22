@@ -1,0 +1,45 @@
+/* element base selection */
+/* 
+h1{
+  background-color: aquamarine;
+
+}
+
+h2{
+ background-color: greenyellow;
+} */
+
+/* id base selection */
+/* #first{
+  background-color: red;
+}
+
+#second{
+  background-color: green;
+}
+
+#workouts{
+  background-color: pink;
+}
+
+#eat{
+  background-color: antiquewhite;
+}
+#pureveg{
+  font-size: large;
+  background-color: yellow;
+} */
+
+
+/* Class based selection */
+
+/* .third{
+  background-color: blanchedalmond;
+  text-align: center;
+} */
+
+/* group based selecton */
+
+h1, .third{
+  background-color: aqua;
+}

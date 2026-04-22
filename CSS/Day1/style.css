@@ -1,0 +1,9 @@
+p {
+  color: #333333; /* Dark gray */
+  line-height: 1.6;
+}
+
+/* Selects every <h2> tag */
+h2 {
+  font-family: Georgia, serif;
+}
