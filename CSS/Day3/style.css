@@ -1,0 +1,24 @@
+h1{
+  background-color: yellow;
+}
+
+#firstId{
+  background-color: pink;
+}
+.classA{
+  background-color: green;
+}
+
+
+/* 0. important keyword */
+
+/* 1. inline css ki high priority hogi */ 
+
+/* Id ki priority jada hogi
+isme order matter nhi krta */
+
+/* 3. Class priority */
+
+/* 4. tag(h1, h2) */
+
+/* tie hoga toh order ke basis pe apply hoga */
