@@ -1,0 +1,34 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  color: blue;
+}
+
+.container{
+  height: 800px;
+  width: 800px;
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  grid-template-rows:1fr 1fr 1fr;
+  padding: 10px;
+}
+
+.box{
+  background-color: rgb(95,95,226);
+}
+
+.box1{
+  grid-row: 1/4;
+}
+.box2{
+  grid-column: 2/4;
+}
+.box6{
+  grid-row: 2/4;
+  grid-column: 4/5;
+}
